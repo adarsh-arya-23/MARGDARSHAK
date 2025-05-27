@@ -1,0 +1,2 @@
+cd /d "D:CareerChatBotX1"
+python app.pyc

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CareerChatBotX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle">
+        <span class="toggle-icon">🌓</span>
+    </button>
+
+    <!-- Main Container -->
+    <div class="container glass">
+        <!-- Sidebar Inside Container -->
+        <div class="sidebar">
+            <h1 class="sidebar-header">मार्गdarshak</h1>
+            <div class="prompts-container">
+                <div class="prompt pro" onclick="insertPrompt(this)">I know HTML and css what to learn next?</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">I know python what to learn next?</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">How to learn android app development?</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">Show career paths for computer science graduates in Data Science</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">Create a 5-year career roadmap for becoming web development</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">What are the top in-demand tech roles in AI?</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">How can I build a strong portfolio for journalist</div>
+                <div class="prompt pro" onclick="insertPrompt(this)">Create a customized upskilling plan for cyber security?</div>
+            </div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area">
+            <h1>Unlock Your Future with AI...</h1>
+            
+            <!-- Particles container inside chat window -->
+            <div class="chat-window-container">
+                <div id="particles-js"></div>
+                <div class="chat-window" id="chat-window">
+                    <div class="bot-message">Hi there! Ask me anything about your career 🚀</div>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your question here..." />
+                <button id="new-chat-btn">New Chat</button>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
